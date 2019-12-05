@@ -1,0 +1,157 @@
+.header{
+    width: 100%;
+    height: 50rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+
+    // &:hover &__gems{
+    //     animation-play-state: paused;
+    // }
+
+    @include respond(phone){
+        height: 40rem;
+    }
+
+    &__logo{
+        z-index: 2;
+    }
+
+    &__gems{
+        position: absolute;
+        height: 5%;
+        animation: rotateIcons 7.5s linear none infinite;
+
+        &--1{
+            top: 20rem;
+            left: 5rem;
+            transform: rotate(135deg);
+        }
+
+        &--2{
+            top: 5rem;
+            left: 25rem;
+            transform: rotate(90deg);
+        }
+
+        &--3{
+            bottom: 5rem;
+            left: 35rem;
+        }
+
+        &--4{
+            top: 2.5rem;
+            right: 15rem;
+            transform: rotate(320deg);
+        }
+
+        &--5{
+            top: 50%;
+            right: 25rem;
+            height: 8%;
+        }
+
+        &--6{
+            bottom: 2.5rem;
+            right: 15rem;
+            transform: rotate(30deg);
+        }
+
+        &--7{
+            top: 10rem;
+            right: 45rem;
+            transform: rotate(45deg);
+        }
+    }
+
+    &__text{
+        text-align: center;
+        width: 45%;
+        z-index: 2;
+
+        @include respond(phone){
+            width: 85%;
+        }
+
+        &--title{
+            display: block;
+            font-weight: 600;
+
+            @include respond(phone){
+                font-size: 2rem;
+            }
+        }
+
+        &--subtitle{
+            display: block;
+            font-weight: 200;
+            font-size: 2rem;
+            color: #ADB6BD;
+            margin-top: 1rem;
+
+            @include respond(phone){
+                margin-top: 1.5rem;
+                font-size: 1.5rem;
+                line-height: -5rem;
+            }
+        }
+    }
+
+    &__btn{
+        color: black;
+
+        &:link, &:visited{
+            display: inline-block;
+            padding: 1rem 4rem;
+            text-decoration: none;
+            background-color: white;
+            border-radius: 200rem;
+            box-shadow: 0 .5rem 2rem rgba(black, .2);
+            z-index: 2;
+
+            @include respond(phone){
+                padding: 1rem 3rem;
+            }
+        }
+    }
+
+    &__leftbox{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: rotate(50deg) translateX(-30rem);
+        border-radius: 10rem;
+        background-color: #F4F6F8;
+        background: linear-gradient(90deg, #00f260 0%,#0575e6 100% );
+        height: 40rem;
+        width: 40rem;
+
+        @include respond(phone){
+            top: 55%;
+            height: 30rem;
+            width: 30rem; 
+        }
+    }
+
+    &__rightbox{
+        position: absolute;
+        top: -40%;
+        right: -15rem;
+        transform: rotate(110deg);
+        border-radius: 5rem;
+        background-color: #F4F6F8;
+        background: linear-gradient(90deg, #3a1c71 0%,#d76d77 50%,#ffaf7b 100% );
+        height: 40rem;
+        width: 40rem;
+
+        @include respond(phone){
+            height: 25rem;
+            width: 25rem; 
+        }
+    }
+}

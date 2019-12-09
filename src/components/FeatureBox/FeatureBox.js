@@ -1,7 +1,7 @@
 import React from 'react';
-import {ReactComponent as Dashboard} from '../svgs/home.svg';
-import {ReactComponent as Grid} from '../svgs/hash-key.svg';
-import {ReactComponent as Font} from '../svgs/font.svg';
+import {ReactComponent as DashboardIcon} from '../../svgs/home.svg';
+import {ReactComponent as GridIcon} from '../../svgs/hash-key.svg';
+import {ReactComponent as FontIcon} from '../../svgs/font.svg';
 
 const FeatureBox = ()=>{
     return (
@@ -10,7 +10,7 @@ const FeatureBox = ()=>{
                 <div className="featurebox__boxes--box">
                     <div className="featurebox__boxes--box__content">
                         <div className="featurebox__boxes--box__content--icon featurebox__boxes--box__content--icon--1">
-                            <Dashboard/>
+                            <DashboardIcon/>
                         </div>
                         <div className="featurebox__boxes--box__content--title">
                             Customizable Elements
@@ -23,7 +23,7 @@ const FeatureBox = ()=>{
                 <div className="featurebox__boxes--box">
                     <div className="featurebox__boxes--box__content">
                         <div className="featurebox__boxes--box__content--icon featurebox__boxes--box__content--icon--2">
-                            <Grid/>
+                            <GridIcon/>
                         </div>
                         <div className="featurebox__boxes--box__content--title">
                             {`Grid & Layout`}
@@ -36,7 +36,7 @@ const FeatureBox = ()=>{
                 <div className="featurebox__boxes--box">
                 <div className="featurebox__boxes--box__content">
                         <div className="featurebox__boxes--box__content--icon featurebox__boxes--box__content--icon--3">
-                            <Font/>
+                            <FontIcon/>
                         </div>
                         <div className="featurebox__boxes--box__content--title">
                             Google Fonts

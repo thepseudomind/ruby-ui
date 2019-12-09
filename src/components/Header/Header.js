@@ -1,11 +1,12 @@
 import React from 'react';
-import emerald from '../img/emerald.png';
-import ruby from '../img/ruby.png';
-import form from '../img/form.png';
-import topaz from '../img/topaz.png';
-import sapphire from '../img/sapphire.png';
-import rocket from '../img/rocket.png';
-import emerald2 from '../img/emerald-cloud.png';
+import ButtonGroup from '../ButtonGroup/ButtonGroup';
+import emerald from '../../img/emerald.png';
+import ruby from '../../img/ruby.png';
+import form from '../../img/form.png';
+import topaz from '../../img/topaz.png';
+import sapphire from '../../img/sapphire.png';
+import rocket from '../../img/rocket.png';
+import emerald2 from '../../img/emerald-cloud.png';
 
 const Header = ()=>{
     return (
@@ -19,7 +20,7 @@ const Header = ()=>{
                     Easily customizable React UI components designed to speed up your development process.
                 </span>
             </h1>
-            <a href="/docs" className="header__btn">View Docs</a>
+            <ButtonGroup/>
             {/* Elements positioned not realted to the flexbox */}
             <span className="header__leftbox"></span>
             <span className="header__rightbox"></span>

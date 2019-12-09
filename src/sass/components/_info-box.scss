@@ -1,0 +1,41 @@
+.info{
+    background-color: #F5F6F9;
+    padding: 5rem 0;
+
+    @include respond(phone){
+        margin-top: 15rem;
+    }
+
+    &-box{
+        display: flex;
+        justify-content: center;
+
+        &:not(:last-child){
+            margin-bottom: 5rem;
+        }
+
+        &__content{
+            width: 114rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            // background-color: crimson;
+    
+            &--columns{
+                width: 40%;
+                // background-color: darkgoldenrod;
+            }
+
+            &--title{
+                font-size: 3.5rem;
+                line-height: 3rem;
+                font-weight: 600;
+                margin-bottom: 2rem;
+            }
+        }
+    
+        &__img{
+            width: 110%;
+        }
+    }
+}

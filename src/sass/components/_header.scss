@@ -102,21 +102,56 @@
         }
     }
 
+    &__btns{
+        width: 30rem;
+        display: flex;
+        justify-content: space-around;
+
+        @include respond(phone){
+            width: 12rem;
+            flex-direction: column;
+        }
+    }
+
     &__btn{
         color: black;
 
-        &:link, &:visited{
+        &:link, &:visited, &:active{
             display: inline-block;
-            padding: 1rem 4rem;
+            padding: 1rem 3.5rem;
             text-decoration: none;
             background-color: white;
             border-radius: 200rem;
             box-shadow: 0 .5rem 2rem rgba(black, .2);
+            transition: all .2s ease;
             z-index: 2;
 
             @include respond(phone){
-                padding: 1rem 3rem;
+                width: 12rem;
+                padding: 1rem 0;
+                text-align: center;
+                margin-bottom: 1rem;
             }
+        }
+
+        &:hover{
+            transform: translateY(-.1rem);
+            box-shadow: 0 .5rem 2rem rgba(black, .3);
+        }
+
+        &--active{
+            background: linear-gradient(270deg, #00f260 0%,#0575e6 100%);
+            color: white;
+
+            // &:hover{
+            //     background: linear-gradient(0deg, #00f260 0%,#0575e6 100%);
+            // }
+        }
+
+        &--version{
+            font-size: 1rem;
+            font-weight: 600;
+            margin-left: .5rem;
         }
     }
 
@@ -127,7 +162,7 @@
         transform: rotate(50deg) translateX(-30rem);
         border-radius: 10rem;
         background-color: #F4F6F8;
-        background: linear-gradient(90deg, #00f260 0%,#0575e6 100% );
+        background: linear-gradient(90deg, #00f260 0%,#0575e6 100%);
         height: 40rem;
         width: 40rem;
 
@@ -145,7 +180,7 @@
         transform: rotate(110deg);
         border-radius: 5rem;
         background-color: #F4F6F8;
-        background: linear-gradient(90deg, #3a1c71 0%,#d76d77 50%,#ffaf7b 100% );
+        background: linear-gradient(90deg, #3a1c71 0%,#d76d77 50%,#ffaf7b 100%);
         height: 40rem;
         width: 40rem;
 

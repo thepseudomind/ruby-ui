@@ -35,7 +35,7 @@
             width: 100%;
             display: flex;
             justify-content: center;
-            box-shadow: .5rem 0 3rem rgba(#749AF2, .8);
+            box-shadow: .5rem 0 2rem rgba(#749AF2, .8);
 
             @include respond(phone){
                 height: 20rem;
@@ -71,7 +71,7 @@
                     width: 5rem;
 
                     &--1{
-                        background: linear-gradient(to right bottom, #ee9ca7 0%,#ffdde1 100% );
+                        background:linear-gradient(to right bottom, #cc95c0 0%,#dbd4b4 50%,#7aa1d2 100% );
                     }
 
                     &--2{
@@ -79,13 +79,14 @@
                     }
 
                     &--3{
-                        background: linear-gradient(to right bottom, #eacda3 0%,#d6ae7b 100% );
+                        background:linear-gradient(to right bottom, #f2994a 0%,#f2c94c 100% );
+                        // background: linear-gradient(to right bottom, #ee9ca7 0%,#ffdde1 100% );
                     }
                 }
 
                 &--title{
                     font-size: 2rem;
-                    font-weight: 700;
+                    font-weight: 600;
                     margin: 1rem 0;
                 }
 

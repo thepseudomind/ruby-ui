@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ruby-ui/static/css/main.10d2ea02.chunk.css",
-    "main.js": "/ruby-ui/static/js/main.9b4c7e84.chunk.js",
-    "main.js.map": "/ruby-ui/static/js/main.9b4c7e84.chunk.js.map",
+    "main.js": "/ruby-ui/static/js/main.64aeac3b.chunk.js",
+    "main.js.map": "/ruby-ui/static/js/main.64aeac3b.chunk.js.map",
     "runtime-main.js": "/ruby-ui/static/js/runtime-main.7b44c7ac.js",
     "runtime-main.js.map": "/ruby-ui/static/js/runtime-main.7b44c7ac.js.map",
     "static/js/2.0ca6eeba.chunk.js": "/ruby-ui/static/js/2.0ca6eeba.chunk.js",
     "static/js/2.0ca6eeba.chunk.js.map": "/ruby-ui/static/js/2.0ca6eeba.chunk.js.map",
     "index.html": "/ruby-ui/index.html",
-    "precache-manifest.499423393b095cbcc679492fdbce0b56.js": "/ruby-ui/precache-manifest.499423393b095cbcc679492fdbce0b56.js",
+    "precache-manifest.11e0308f2a9b396402be5465749e5b53.js": "/ruby-ui/precache-manifest.11e0308f2a9b396402be5465749e5b53.js",
     "service-worker.js": "/ruby-ui/service-worker.js",
     "static/css/main.10d2ea02.chunk.css.map": "/ruby-ui/static/css/main.10d2ea02.chunk.css.map",
     "static/media/font.5ed76bf5.svg": "/ruby-ui/static/media/font.5ed76bf5.svg",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.7b44c7ac.js",
     "static/js/2.0ca6eeba.chunk.js",
     "static/css/main.10d2ea02.chunk.css",
-    "static/js/main.9b4c7e84.chunk.js"
+    "static/js/main.64aeac3b.chunk.js"
   ]
 }

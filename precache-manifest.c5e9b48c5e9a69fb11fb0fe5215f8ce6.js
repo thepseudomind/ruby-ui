@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f4f7124556b2821ba4b18e46fd34429",
+    "revision": "0a10cc15d6de2868b9f790213b4ae1aa",
     "url": "/ruby-ui/index.html"
   },
   {

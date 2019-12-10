@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/eazyfood/static/css/main.10d2ea02.chunk.css",
+    "main.js": "/eazyfood/static/js/main.4cd60fac.chunk.js",
+    "main.js.map": "/eazyfood/static/js/main.4cd60fac.chunk.js.map",
+    "runtime-main.js": "/eazyfood/static/js/runtime-main.5fe0f997.js",
+    "runtime-main.js.map": "/eazyfood/static/js/runtime-main.5fe0f997.js.map",
+    "static/js/2.0ca6eeba.chunk.js": "/eazyfood/static/js/2.0ca6eeba.chunk.js",
+    "static/js/2.0ca6eeba.chunk.js.map": "/eazyfood/static/js/2.0ca6eeba.chunk.js.map",
+    "index.html": "/eazyfood/index.html",
+    "precache-manifest.95ef59daa6c071748b61843558af75ac.js": "/eazyfood/precache-manifest.95ef59daa6c071748b61843558af75ac.js",
+    "service-worker.js": "/eazyfood/service-worker.js",
+    "static/css/main.10d2ea02.chunk.css.map": "/eazyfood/static/css/main.10d2ea02.chunk.css.map",
+    "static/media/font.5ed76bf5.svg": "/eazyfood/static/media/font.5ed76bf5.svg",
+    "static/media/hash-key.b2e7684f.svg": "/eazyfood/static/media/hash-key.b2e7684f.svg",
+    "static/media/home.a3a5e86b.svg": "/eazyfood/static/media/home.a3a5e86b.svg",
+    "static/media/programming.png": "/eazyfood/static/media/programming.abd7d654.png",
+    "static/media/puzzle.png": "/eazyfood/static/media/puzzle.b547fa37.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fe0f997.js",
+    "static/js/2.0ca6eeba.chunk.js",
+    "static/css/main.10d2ea02.chunk.css",
+    "static/js/main.4cd60fac.chunk.js"
+  ]
+}
